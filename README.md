@@ -1,5 +1,5 @@
 
-# Good Enough Recommendations (GER)
+# Greate Recommendations Engine (Tiresias)
 <img src="./assets/ger300x200.png" align="right" alt="GER logo" />
 
 Providing good recommendations can get greater user engagement and provide an opportunity to add value that would otherwise not exist. The main reason why many applications don't provide recommendations is the difficulty in either implementing a custom engine or using an existing engine.
@@ -8,21 +8,21 @@ Good Enough Recommendations (**GER**) is a recommendation engine that is scalabl
 
 ##Quick Start Guide
 
-**Note: functions from GER return a promises**
+**Note: functions from Tiresias return a promises**
 
-Install `ger` and `coffee-script` with `npm`:
+Install `tiresias` and `coffee-script` with `npm`:
 
 ```bash
-npm install ger
+npm install tiresias
 ```
 
-In your javascript code, first require `ger`:
+In your javascript code, first require `tiresias`:
 
 ```javascript
-var g = require('ger')
+var g = require('tiresias')
 ```
 
-Initialize an in memory Event Store Manager (ESM) and create a Good Enough Recommender (GER):
+Initialize an in memory Event Store Manager (ESM) and create a Good Enough Recommender (Tiresias):
 
 ```javascript
 var esm = new g.MemESM()
